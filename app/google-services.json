@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020539257138",
+    "firebase_url": "https://azuno-9fa24.firebaseio.com",
+    "project_id": "azuno-9fa24",
+    "storage_bucket": "azuno-9fa24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020539257138:android:7f6d65a646816a7c",
+        "android_client_info": {
+          "package_name": "com.example.warre.anuzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020539257138-68bmg25jm3ua5h86p33ol4lkra4926ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.warre.anuzo",
+            "certificate_hash": "7cd61ca46947c9bd864ad3959a5a3d817ee58478"
+          }
+        },
+        {
+          "client_id": "1020539257138-kelkq040qsf85cdc21uoqf23lubienbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQB1pHeAhbnGrysYHMvEdm14tqoajlUPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020539257138-kelkq040qsf85cdc21uoqf23lubienbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

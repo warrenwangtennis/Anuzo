@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register with:" />
+
+    <Button
+        android:id="@+id/register_email_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:text="Email"
+        android:textColor="#ffffff">
+
+    </Button>
+
+    <Button
+        android:id="@+id/register_google_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btn_google_signin_light_normal"
+        android:scaleType="fitCenter"
+        android:textAllCaps="false"
+        android:text="Google"
+
+        />
+
+    <TextView
+        android:id="@+id/register_login_with_existing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/login_with_existing" />
+
+
+
+</LinearLayout>
